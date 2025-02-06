@@ -2,7 +2,9 @@
 
 ## Detalles del proyecto
 
-- El proyecto consiste en un bot de discord que recoja diferentes datos de diferentes paginas sobre un juego y los unifique en un unico sitio que es el mismo bot para asi poder tener acceso a estos datos sin tener que estar navegando por las diferenntes páginas
+- Jinhsi Bot es un bot de Discord diseñado para recopilar, unificar y presentar información relevante sobre un videojuego desde diversas fuentes en línea. El objetivo principal del proyecto es proporcionar a los jugadores acceso rápido y centralizado a datos sin necesidad de visitar múltiples páginas web.
+
+El bot servirá como un asistente automatizado dentro de un servidor de Discord, permitiendo a los usuarios obtener información actualizada sobre el juego mediante comandos específicos. Esto facilitará el acceso a estadísticas, noticias, eventos, guías y otros datos relevantes sin salir de la plataforma de Discor
 
 
 ## Ciclo de vida del dato (5b)
