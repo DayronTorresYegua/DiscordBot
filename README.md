@@ -1,5 +1,10 @@
 # Preguntas a Responder
 
+## Detalles del proyecto
+
+- El proyecto consiste en un bot de discord que recoja diferentes datos de diferentes paginas sobre un juego y los unifique en un unico sitio que es el mismo bot para asi poder tener acceso a estos datos sin tener que estar navegando por las diferenntes páginas
+
+
 ## Ciclo de vida del dato (5b)
 1. ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?
 2. ¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?
