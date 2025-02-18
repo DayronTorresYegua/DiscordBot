@@ -1,0 +1,13 @@
+{
+    "personajes": [
+        {
+        "nombre": "Jiyan",
+        "elemento": "Aero",
+        "rareza": 5,
+        "arma_recomendada": "Cumbre verde",
+        "set_de_ecos": "Ventisca de sierra",
+        "imagen": "jiyan.png"
+
+        }
+    ]
+}
