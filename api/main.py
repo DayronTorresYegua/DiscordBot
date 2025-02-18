@@ -1,18 +1,22 @@
 from fastapi import FastAPI
-from fastappi.staticfiles import StaticFiles
+from fastapi.staticfiles import StaticFiles
 import json
 
 app = FastAPI()
 
-app.mount("/assets", StaticFiles(directory="assets"), name="assets")
+# Montar la carpeta de imágenes
+app.mount("/assets", StaticFiles(directory="api/assets"), name="assets")
 
-with open("data.json", "r", encoding="utf-8") as file:
+# Cargar datos de los personajes
+with open("api/data.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 @app.get("/personajes/{nombre}")
 async def get_personaje(nombre: str):
-    pesonaje = next((pj for pj in data["personajes"] if pj["nombre"].lower() == nombre), None)
-    if pesonaje:
+    personaje = next((pj for pj in data["personajes"] if pj["nombre"].lower() == nombre.lower()), None)
+    
+    if personaje:
+        personaje = personaje.copy()  # Copia para no modificar el JSON original
         personaje["imagen"] = f"/assets/{personaje['imagen']}"
         return personaje
     else:

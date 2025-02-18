@@ -1,13 +1,20 @@
 {
     "personajes": [
         {
-        "nombre": "Jiyan",
-        "elemento": "Aero",
-        "rareza": 5,
-        "arma_recomendada": "Cumbre verde",
-        "set_de_ecos": "Ventisca de sierra",
-        "imagen": "jiyan.png"
-
+            "nombre": "Jiyan",
+            "elemento": "Aero",
+            "rareza": 5,
+            "arma_recomendada": "Cumbre verde",
+            "set_de_ecos": "Ventisca de sierra",
+            "imagen": "assets/jiyan.png"
+        },
+        {
+            "nombre": "Calcharo",
+            "elemento": "Electro",
+            "rareza": 5,
+            "arma_recomendada": "Hoja del trueno",
+            "set_de_ecos": "Caminante del rayo",
+            "imagen": "assets/calcharo.png"
         }
     ]
 }
