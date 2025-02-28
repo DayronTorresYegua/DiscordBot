@@ -15,5 +15,4 @@ async def get_personaje(nombre: str):
     if personaje:
         personaje["imagen"] = f"/assets/{personaje['imagen']}"
         return personaje
-    else:
-        return {"error": "Personaje no encontrado"}
+    return {"error": "Personaje no encontrado"}
