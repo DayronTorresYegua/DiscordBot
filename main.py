@@ -33,19 +33,6 @@ except json.JSONDecodeError:
     print(f"Error: El archivo {characters_file} no tiene un formato JSON válido")
     characters = {}
 
-# Cargar datos de sets de Echos desde el archivo JSON
-try:
-    with open(echo_sets_file, 'r', encoding='utf-8') as f:
-        print(f"Cargando datos de sets de Echos desde: {echo_sets_file}")
-        echo_sets = json.load(f)
-        print(f"Sets de Echos cargados: {list(echo_sets.keys())}")
-except FileNotFoundError:
-    print(f"Error: No se encontró el archivo {echo_sets_file}")
-    echo_sets = {}
-except json.JSONDecodeError:
-    print(f"Error: El archivo {echo_sets_file} no tiene un formato JSON válido")
-    echo_sets = {}
-
 @bot.event
 async def on_ready():
     print(f'Bot conectado como {bot.user.name}')
@@ -150,7 +137,7 @@ async def clear_error(ctx, error):
         await ctx.send("Por favor, proporciona un número de mensajes a borrar.")
     else:
         await ctx.send(f"Ocurrió un error: {str(error)}")
-        
+
 # Iniciar el bot
 if __name__ == "__main__":
     if TOKEN:
