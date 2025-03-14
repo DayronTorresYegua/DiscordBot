@@ -18,7 +18,6 @@ bot = commands.Bot(command_prefix='>', intents=intents)
 # Obtener la ruta absoluta al directorio actual donde se encuentra el script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 characters_file = os.path.join(script_dir, 'data.json')
-echo_sets_file = os.path.join(script_dir, 'echo_sets.json')
 
 # Cargar datos de personajes desde el archivo JSON
 try:
