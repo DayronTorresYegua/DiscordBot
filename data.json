@@ -1,0 +1,38 @@
+{
+    "rover": {
+      "name": "Rover",
+      "description": "Tras despertar con un pasado desconocido, Rover es un Arbiter que emprende un viaje para descubrir la verdad y recuperar sus recuerdos perdidos. A medida que se revelan secretos, establecen conexiones más profundas con el mundo.",
+      "rarity": "5",
+      "element": "Havoc / Spectro",
+      "weapon": "Espada ligera",
+      "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/13/Rover_Icon.png/revision/latest?cb=20240523011434",
+      "recommended_builds": [
+        {
+          "echo_sets": {
+            "Pionero": 2,
+            "Cazador": 5
+          },
+          "main_stats": {
+            "Coste4": "Daño Crítico / Probabilidad Crítica",
+            "Coste3 (1)": "ATQ%",
+            "Coste3 (2)": "Bono de daño Havoc / Spectro",
+            "Coste1 (1)": "ATQ%",
+            "Coste1 (2)": "ATQ%"
+          },
+          "substats": [
+            "Daño Crítico / Probabilidad Crítica",
+            "ATQ%",
+            "Recarga de Energía",
+            "ATQ plano"
+          ]
+        }]
+    },
+    "sanhua": {
+      "name": "Sanhua",
+      "description": "Una elegante y poderosa Resonadora que utiliza la danza como medio de combate.",
+      "rarity": "5",
+      "element": "Gelio",
+      "weapon": "Espada ligera",
+      "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/54/Sanhua_Icon.png/revision/latest?cb=20240523015219"
+    }
+  }
