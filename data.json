@@ -23,16 +23,38 @@
             "Daño Crítico / Probabilidad Crítica",
             "ATQ%",
             "Recarga de Energía",
+            "Bonificación de liberación de resonancia",
             "ATQ plano"
           ]
         }]
     },
     "sanhua": {
       "name": "Sanhua",
-      "description": "Una elegante y poderosa Resonadora que utiliza la danza como medio de combate.",
+      "description": "Ella es la guardia leal y confiable de Jinhsi, quien percibe un mundo claramente diferente al que ven los demás.",
       "rarity": "5",
       "element": "Gelio",
       "weapon": "Espada ligera",
-      "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/54/Sanhua_Icon.png/revision/latest?cb=20240523015219"
+      "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/54/Sanhua_Icon.png/revision/latest?cb=20240523015219",
+      "recommended_builds": [
+        {
+          "echo_sets": {
+            "Escarcha eterna": 2,
+            "Nubes de luna": 5
+          },
+          "main_stats": {
+            "Coste4": "Daño Crítico / Probabilidad Crítica",
+            "Coste3 (1)": "Bono de daño Gelio o Recarga de Energía",
+            "Coste3 (2)": "Bono de daño Gelio",
+            "Coste1 (1)": "ATQ%",
+            "Coste1 (2)": "ATQ%"
+          },
+          "substats": [
+            "Daño Crítico / Probabilidad Crítica",
+            "Recarga de Energía",
+            "ATQ%",
+            "Bonificación de liberación de resonancia",
+            "ATQ plano"
+          ]
+        }]
     }
   }
