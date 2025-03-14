@@ -14,11 +14,13 @@ El bot servirá como un asistente automatizado dentro de un servidor de Discord,
 ## Almacenamiento en la nube (5f)
 1. Si tu software utiliza almacenamiento en la nube, ¿cómo garantizas la seguridad y disponibilidad de los datos?
 2. ¿Qué alternativas consideraste para almacenar datos y por qué elegiste tu solución actual?
+   - He hechco uso de archivos JSON para almacenar los datos, he decidido usar esta opción ya que para el enfoque que tengo para el proyecto es lo más cómodo y eficiente
 3. Si no usas la nube, ¿cómo podrías integrarla en futuras versiones?
 
 ## Seguridad y regulación (5i)
 1. ¿Qué medidas de seguridad implementaste para proteger los datos o procesos en tu proyecto?
-2. ¿Qué normativas (e.g., GDPR) podrían afectar el uso de tu software y cómo las has tenido en cuenta?
+   - Tengo creado una restricción para algún comando la cuál requiere de tener un rol específico para poder ser usado.
+3. ¿Qué normativas (e.g., GDPR) podrían afectar el uso de tu software y cómo las has tenido en cuenta?
 3. Si no implementaste medidas de seguridad, ¿qué riesgos potenciales identificas y cómo los abordarías en el futuro?
 
 ## Implicación de las THD en negocio y planta (2e)
