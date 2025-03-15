@@ -4,22 +4,18 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
-# Cargar variables de entorno desde el archivo .env
-load_dotenv()
-
-# Obtener el token desde las variables de entorno
 TOKEN = os.getenv('DISCORD_TOKEN')
+if not TOKEN and os.path.exists('.env'):
+    load_dotenv()
+    TOKEN = os.getenv('DISCORD_TOKEN')
 
-# Configurar el bot con el prefijo ">"
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix='>', intents=intents)
 
-# Obtener la ruta absoluta al directorio actual donde se encuentra el script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 characters_file = os.path.join(script_dir, 'data.json')
 
-# Cargar datos de personajes desde el archivo JSON
 try:
     with open(characters_file, 'r', encoding='utf-8') as f:
         print(f"Cargando datos de personajes desde: {characters_file}")
@@ -137,9 +133,25 @@ async def clear_error(ctx, error):
     else:
         await ctx.send(f"Ocurrió un error: {str(error)}")
 
-# Iniciar el bot
+# Add a health check endpoint for Render to monitor the application
+if os.getenv('PORT'):
+    from flask import Flask
+    app = Flask(__name__)
+    
+    @app.route('/')
+    def home():
+        return "Bot is running!"
+    
+    def run_flask():
+        port = int(os.getenv('PORT', 5000))
+        app.run(host='0.0.0.0', port=port)
+    
+    import threading
+    threading.Thread(target=run_flask, daemon=True).start()
+
+# Ejecutar el bot
 if __name__ == "__main__":
     if TOKEN:
         bot.run(TOKEN)
     else:
-        print("Error: No se encontró el token en el archivo .env")
+        print("Error: No se encontró el token en las variables de entorno o en el archivo .env")
