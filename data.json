@@ -1,60 +1,277 @@
 {
-    "rover": {
-      "name": "Rover",
-      "description": "Tras despertar con un pasado desconocido, Rover es un Arbiter que emprende un viaje para descubrir la verdad y recuperar sus recuerdos perdidos. A medida que se revelan secretos, establecen conexiones más profundas con el mundo.",
-      "rarity": "5",
-      "element": "Havoc / Spectro",
-      "weapon": "Espada ligera",
-      "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/13/Rover_Icon.png/revision/latest?cb=20240523011434",
-      "recommended_builds": [
-        {
-          "echo_sets": {
-            "Pionero": 2,
-            "Cazador": 5
-          },
-          "main_stats": {
-            "Coste4": "Daño Crítico / Probabilidad Crítica",
-            "Coste3 (1)": "ATQ%",
-            "Coste3 (2)": "Bono de daño Havoc / Spectro",
-            "Coste1 (1)": "ATQ%",
-            "Coste1 (2)": "ATQ%"
-          },
-          "substats": [
-            "Daño Crítico / Probabilidad Crítica",
-            "ATQ%",
-            "Recarga de Energía",
-            "Bonificación de liberación de resonancia",
-            "ATQ plano"
-          ]
-        }]
-    },
-    "sanhua": {
-      "name": "Sanhua",
-      "description": "Ella es la guardia leal y confiable de Jinhsi, quien percibe un mundo claramente diferente al que ven los demás.",
-      "rarity": "5",
-      "element": "Gelio",
-      "weapon": "Espada ligera",
-      "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/54/Sanhua_Icon.png/revision/latest?cb=20240523015219",
-      "recommended_builds": [
-        {
-          "echo_sets": {
-            "Escarcha eterna": 2,
-            "Nubes de luna": 5
-          },
-          "main_stats": {
-            "Coste4": "Daño Crítico / Probabilidad Crítica",
-            "Coste3 (1)": "Bono de daño Gelio o Recarga de Energía",
-            "Coste3 (2)": "Bono de daño Gelio",
-            "Coste1 (1)": "ATQ%",
-            "Coste1 (2)": "ATQ%"
-          },
-          "substats": [
-            "Daño Crítico / Probabilidad Crítica",
-            "Recarga de Energía",
-            "ATQ%",
-            "Bonificación de liberación de resonancia",
-            "ATQ plano"
-          ]
-        }]
-    }
+  "aalto": {
+    "name": "Aalto",
+    "description": "Es un agente de información de la Nueva Federación y consultor de las Costas Negras. ",
+    "rarity": "4",
+    "element": "Aero",
+    "weapon": "Pistolas",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/51/Aalto_Icon.png/revision/latest?cb=20240523015427",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Nubes iluminadas": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Aero",
+          "Coste3 (2)": "Bono de daño Aero",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "baizhi": {
+    "name": "Baizhi",
+    "description": "Investiga en Ecoacústica Remanente en la Academia Huaxu. El deseo incumplido de Baizhi se ha manifestado ahora como su fiel compañero. La Criatura Remanente You'tan es su fuente de poderes curativos y su principal objetivo de investigación.",
+    "rarity": "4",
+    "element": "Glacio",
+    "weapon": "Rectificador",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/66/Baizhi_Icon.png/revision/latest?cb=20240523015334",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Rejuvenecedor brillante": 5
+        },
+        "main_stats": {
+          "Coste4": "Bonificación de curación",
+          "Coste3 (1)": "Recarga de Energía",
+          "Coste3 (2)": "Recarga de Energía",
+          "Coste1 (1)": "HP%",
+          "Coste1 (2)": "HP%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "brant": {
+    "name": "Brant",
+    "description": "Brant, es el capitán de la Compañía de los Locos. Como capitán de la Compañía de los Locos, Brant irradia un encanto despreocupado y tranquilo, libre de convencionalismos. Bajo su extravagante personalidad se esconde un corazón genuino, profundamente dedicado a su familia y compañeros. Dedica su vida a asegurar un refugio seguro para los miembros de la Compañía.",
+    "rarity": "5",
+    "element": "Fusion",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6d/Brant_Icon.png/revision/latest?cb=20250213184622",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Rejuvenecedor brillante": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Recarga de Energía",
+          "Coste3 (2)": "Recarga de Energía / Bono de daño fusión",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Recarga de Energía",
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Bono de ataque básico"
+        ]
+      }
+    ]
+  },
+  "calcharo": {
+    "name": "Calcharo",
+    "description": "Es un antiguo exiliado de la Zona sin ley de la Nueva Federación y el líder de los Sabuesos Fantasma.",
+    "rarity": "5",
+    "element": "Electro",
+    "weapon": "Mandoble",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/12/Calcharo_Icon.png/revision/latest?cb=20240523015359",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Trueno vacío": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Electro",
+          "Coste3 (2)": "Bono de daño Electro",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Bono de liberación de resonancia",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "camellya": {
+    "name": "Camellya",
+    "description": "Camellia es una Portadora de Flor de las Costas Negras y se encarga de las pruebas de germinación orientadas al combate que se realizan a los nuevos candidatos.",
+    "rarity": "5",
+    "element": "Havoc",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/b/bc/Camellya_Icon.png/revision/latest?cb=20241116001919",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Eclipse de sol en descenso": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Havoc",
+          "Coste3 (2)": "Bono de daño Havoc",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía",
+          "Bono de ataque básico"
+        ]
+      }
+    ]
+  },
+  "carlotta": {
+    "name": "Carlotta",
+    "description": "Carlotta es la segunda hija de la respetada familia Montelli de Rinascita, personificando una nobleza innata y una refinada apreciación por el arte.",
+    "rarity": "5",
+    "element": "Glacio",
+    "weapon": "Pistolas",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/06/Carlotta_Icon.png/revision/latest?cb=20250102025428",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Escarcha eterna": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Glacio",
+          "Coste3 (2)": "Bono de daño Glacio",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía",
+          "Bono de habilidad de resonancia"
+        ]
+      }
+    ]
+  },
+  "changli": {
+    "name": "Changli",
+    "description": "Ella es la ex Secretaria General de la Secretaría Central en Mingting , la capital, y ahora se desempeña como Consejera del Magistrado de Jinzhou .",
+    "rarity": "5",
+    "element": "Fusion",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/19/Changli_Icon.png/revision/latest?cb=20240629210403",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Grieta fundida": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Fusión",
+          "Coste3 (2)": "Bono de daño Fusión",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía",
+          "Bono de habilidad de resonancia"
+        ]
+      }
+    ]
+  },
+  "chixia": {
+    "name": "Chixia",
+    "description": "Ella es una joven patrullera que proyecta su jubilosa figura por las calles de la ciudad de Jinzhou.",
+    "rarity": "5",
+    "element": "Fusion",
+    "weapon": "Pistolas",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Chixia_Icon.png/revision/latest?cb=20240523010958",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Grieta fundida": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Fusión",
+          "Coste3 (2)": "Bono de daño Fusión",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "danjin": {
+    "name": "Danjin",
+    "description": "Ella es miembro de los Midnight Rangers .",
+    "rarity": "5",
+    "element": "Havoc",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5a/Danjin_Icon.png/revision/latest?cb=20240523015142",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Caos desatado": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Havoc",
+          "Coste3 (2)": "Bono de daño Havoc",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "encore": {
+    "name": "Encore",
+    "description": "Encore pertenece a la Nueva Federación y es Consultora de las Costas Negras .",
+    "rarity": "5",
+    "element": "Fusion",
+    "weapon": "Rectificador",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/64/Encore_Icon.png/revision/latest?cb=20240523015109",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Grieta fundida": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Fusión",
+          "Coste3 (2)": "Bono de daño Fusión",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
   }
+}

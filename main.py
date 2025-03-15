@@ -3,8 +3,6 @@ import json
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
-from flask import Flask
-import threading
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 if not TOKEN and os.path.exists('.env'):
@@ -53,6 +51,12 @@ async def help_command(ctx):
     )
     
     embed.add_field(
+        name=">personajes",
+        value="Muestra una lista de todos los personajes disponibles en el bot.",
+        inline=False
+    )
+    
+    embed.add_field(
         name=">clear [número]",
         value="*Solo para administradores*\n"
               "Borra un número específico de mensajes del canal actual.\n"
@@ -66,14 +70,50 @@ async def help_command(ctx):
         inline=False
     )
     
+    embed.add_field(
+        name="Personajes disponibles",
+        value="Para ver los personajes disponibles usa `>personajes`",
+        inline=False
+    )
+    
+    await ctx.send(embed=embed)
 
-    if characters:
-        available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
-        embed.add_field(
-            name="Personajes disponibles",
-            value=", ".join(available_chars),
-            inline=False
-        )
+@bot.command(name='personajes')
+async def list_characters(ctx):
+    """Muestra una lista de todos los personajes disponibles"""
+    if not characters:
+        await ctx.send("No hay personajes disponibles en este momento.")
+        return
+    
+    embed = discord.Embed(
+        title="Personajes disponibles en Wuthering Waves",
+        description="Aquí tienes la lista de personajes sobre los que puedes consultar información:",
+        color=discord.Color.green()
+    )
+    
+    available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
+    
+    # Ordenar alfabéticamente
+    available_chars.sort()
+    
+    # Crear una lista formateada
+    formatted_list = ""
+    for char in available_chars:
+        formatted_list += f"• {char}\n"
+    
+    embed.add_field(
+        name="Personajes",
+        value=formatted_list if formatted_list else "No hay personajes disponibles.",
+        inline=False
+    )
+    
+    embed.add_field(
+        name="¿Cómo usar?",
+        value="Para obtener información detallada sobre un personaje específico, usa el comando:\n"
+              "`>personaje [nombre]`\n"
+              "**Ejemplo:** `>personaje Rover`",
+        inline=False
+    )
     
     await ctx.send(embed=embed)
 
@@ -143,10 +183,7 @@ async def character_info(ctx, *, character_name=None):
         await ctx.send(embed=embed)
     else:
         await ctx.send(f"No se encontró información sobre el personaje '{character_name}'")
-        
-        if characters:
-            available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
-            await ctx.send(f"Personajes disponibles: {', '.join(available_chars)}")
+        await ctx.send("Para ver los personajes disponibles, usa `>personajes`")
 
 @bot.command()
 @commands.has_role("Admin")
@@ -166,19 +203,6 @@ async def clear_error(ctx, error):
         await ctx.send("Por favor, proporciona un número de mensajes a borrar.")
     else:
         await ctx.send(f"Ocurrió un error: {str(error)}")
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Bot is running!"
-
-def run_flask():
-    port = int(os.getenv('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
-
-if os.getenv('PORT'):
-    threading.Thread(target=run_flask, daemon=True).start()
 
 if __name__ == "__main__":
     if TOKEN:
