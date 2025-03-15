@@ -6,22 +6,18 @@ from dotenv import load_dotenv
 from flask import Flask
 import threading
 
-# Configure environment variables
 TOKEN = os.getenv('DISCORD_TOKEN')
 if not TOKEN and os.path.exists('.env'):
     load_dotenv()
     TOKEN = os.getenv('DISCORD_TOKEN')
 
-# Bot configuration with case-insensitive commands
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='>', intents=intents, case_insensitive=True, help_command=None)  # Removed default help command
+bot = commands.Bot(command_prefix='>', intents=intents, case_insensitive=True, help_command=None) 
 
-# Get the absolute path to the directory containing the script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 characters_file = os.path.join(script_dir, 'data.json')
 
-# Load character data from JSON file
 try:
     with open(characters_file, 'r', encoding='utf-8') as f:
         print(f"Cargando datos de personajes desde: {characters_file}")
@@ -49,7 +45,6 @@ async def help_command(ctx):
         color=discord.Color.blue()
     )
     
-    # Comando personaje
     embed.add_field(
         name=">personaje [nombre]",
         value="Muestra información detallada sobre un personaje específico de Wuthering Waves.\n"
@@ -57,7 +52,6 @@ async def help_command(ctx):
         inline=False
     )
     
-    # Comando clear (solo para admins)
     embed.add_field(
         name=">clear [número]",
         value="*Solo para administradores*\n"
@@ -66,14 +60,13 @@ async def help_command(ctx):
         inline=False
     )
     
-    # Comando help
     embed.add_field(
         name=">help",
         value="Muestra este mensaje de ayuda con información sobre todos los comandos disponibles.",
         inline=False
     )
     
-    # Lista de personajes disponibles
+
     if characters:
         available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
         embed.add_field(
@@ -81,9 +74,6 @@ async def help_command(ctx):
             value=", ".join(available_chars),
             inline=False
         )
-    
-    # Añade el footer con información adicional
-    embed.set_footer(text="Bot creado para Wuthering Waves • Los comandos funcionan con mayúsculas o minúsculas")
     
     await ctx.send(embed=embed)
 
@@ -94,7 +84,6 @@ async def character_info(ctx, *, character_name=None):
         await ctx.send("Por favor, especifica el nombre de un personaje. Ejemplo: `>personaje Rover`")
         return
     
-    # Buscar el personaje en el JSON (ignorando mayúsculas/minúsculas)
     character_name = character_name.lower()
     character_found = None
     
@@ -105,14 +94,12 @@ async def character_info(ctx, *, character_name=None):
             break
     
     if character_found:
-        # Crear embed único con toda la información
         embed = discord.Embed(
             title=f"{character_found['name']} - Guía completa",
             description=character_found.get('description', 'No hay descripción disponible'),
             color=discord.Color.blue()
         )
         
-        # Sección 1: Información básica
         basic_info = ""
         if 'rarity' in character_found:
             basic_info += f"**Rareza:** {character_found['rarity']}\n"
@@ -123,11 +110,9 @@ async def character_info(ctx, *, character_name=None):
         
         embed.add_field(name="Información básica", value=basic_info, inline=False)
         
-        # Sección 2: Sets de Echos recomendados
         if 'recommended_builds' in character_found and character_found['recommended_builds']:
-            build = character_found['recommended_builds'][0]  # Tomamos la primera build recomendada
+            build = character_found['recommended_builds'][0]  
             
-            # Sets de Echos
             if 'echo_sets' in build:
                 sets_info = build['echo_sets']
                 sets_text = ""
@@ -137,7 +122,6 @@ async def character_info(ctx, *, character_name=None):
                 
                 embed.add_field(name="Sets de Echos recomendados", value=sets_text, inline=False)
             
-            # Estadísticas principales
             if 'main_stats' in build:
                 main_stats = build['main_stats']
                 stats_text = ""
@@ -147,14 +131,12 @@ async def character_info(ctx, *, character_name=None):
                 
                 embed.add_field(name="Estadísticas principales", value=stats_text, inline=False)
             
-            # Subestadísticas
             if 'substats' in build:
                 substats = build['substats']
                 substats_text = "Prioridad: " + " > ".join(substats)
                 
                 embed.add_field(name="Subestadísticas recomendadas", value=substats_text, inline=False)
-            
-        # Establecer la imagen del personaje
+        
         if 'image_url' in character_found:
             embed.set_thumbnail(url=character_found['image_url'])
         
@@ -162,7 +144,6 @@ async def character_info(ctx, *, character_name=None):
     else:
         await ctx.send(f"No se encontró información sobre el personaje '{character_name}'")
         
-        # Sugerir personajes disponibles
         if characters:
             available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
             await ctx.send(f"Personajes disponibles: {', '.join(available_chars)}")
@@ -186,7 +167,6 @@ async def clear_error(ctx, error):
     else:
         await ctx.send(f"Ocurrió un error: {str(error)}")
 
-# Configurar el servidor web para health check
 app = Flask(__name__)
 
 @app.route('/')
@@ -197,11 +177,9 @@ def run_flask():
     port = int(os.getenv('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
 
-# Iniciar el servidor web en un hilo separado
 if os.getenv('PORT'):
     threading.Thread(target=run_flask, daemon=True).start()
 
-# Ejecutar el bot
 if __name__ == "__main__":
     if TOKEN:
         bot.run(TOKEN)
