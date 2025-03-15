@@ -11,7 +11,7 @@ if not TOKEN and os.path.exists('.env'):
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='>', intents=intents)
+bot = commands.Bot(command_prefix='>', intents=intents, case_insensitive=True)
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 characters_file = os.path.join(script_dir, 'data.json')
@@ -41,7 +41,6 @@ async def character_info(ctx, *, character_name=None):
         await ctx.send("Por favor, especifica el nombre de un personaje. Ejemplo: `>personaje Rover`")
         return
     
-    # Buscar el personaje en el JSON (ignorando mayúsculas/minúsculas)
     character_name = character_name.lower()
     character_found = None
     
@@ -52,14 +51,12 @@ async def character_info(ctx, *, character_name=None):
             break
     
     if character_found:
-        # Crear embed único con toda la información
         embed = discord.Embed(
             title=f"{character_found['name']} - Guía completa",
             description=character_found.get('description', 'No hay descripción disponible'),
             color=discord.Color.blue()
         )
         
-        # Sección 1: Información básica
         basic_info = ""
         if 'rarity' in character_found:
             basic_info += f"**Rareza:** {character_found['rarity']}\n"
@@ -70,11 +67,9 @@ async def character_info(ctx, *, character_name=None):
         
         embed.add_field(name="Información básica", value=basic_info, inline=False)
         
-        # Sección 2: Sets de Echos recomendados
         if 'recommended_builds' in character_found and character_found['recommended_builds']:
             build = character_found['recommended_builds'][0]  # Tomamos la primera build recomendada
             
-            # Sets de Echos
             if 'echo_sets' in build:
                 sets_info = build['echo_sets']
                 sets_text = ""
@@ -84,7 +79,6 @@ async def character_info(ctx, *, character_name=None):
                 
                 embed.add_field(name="Sets de Echos recomendados", value=sets_text, inline=False)
             
-            # Estadísticas principales
             if 'main_stats' in build:
                 main_stats = build['main_stats']
                 stats_text = ""
@@ -94,14 +88,12 @@ async def character_info(ctx, *, character_name=None):
                 
                 embed.add_field(name="Estadísticas principales", value=stats_text, inline=False)
             
-            # Subestadísticas
             if 'substats' in build:
                 substats = build['substats']
                 substats_text = "Prioridad: " + " > ".join(substats)
                 
                 embed.add_field(name="Subestadísticas recomendadas", value=substats_text, inline=False)
             
-        # Establecer la imagen del personaje
         if 'image_url' in character_found:
             embed.set_thumbnail(url=character_found['image_url'])
         
@@ -109,7 +101,6 @@ async def character_info(ctx, *, character_name=None):
     else:
         await ctx.send(f"No se encontró información sobre el personaje '{character_name}'")
         
-        # Sugerir personajes disponibles
         if characters:
             available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
             await ctx.send(f"Personajes disponibles: {', '.join(available_chars)}")
@@ -133,7 +124,6 @@ async def clear_error(ctx, error):
     else:
         await ctx.send(f"Ocurrió un error: {str(error)}")
 
-# Add a health check endpoint for Render to monitor the application
 if os.getenv('PORT'):
     from flask import Flask
     app = Flask(__name__)
@@ -149,7 +139,6 @@ if os.getenv('PORT'):
     import threading
     threading.Thread(target=run_flask, daemon=True).start()
 
-# Ejecutar el bot
 if __name__ == "__main__":
     if TOKEN:
         bot.run(TOKEN)
