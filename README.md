@@ -1,8 +1,10 @@
-# Detalles del proyecto
+# Project details
 
-Jinhsi Bot es un bot de Discord diseñado para recopilar, unificar y presentar información relevante sobre un videojuego desde diversas fuentes en línea. El objetivo principal del proyecto es proporcionar a los jugadores acceso rápido y centralizado a datos sin necesidad de visitar múltiples páginas web.
+Jinhsi Bot is a Discord bot designed to collect, unify and present relevant information about a video game from various online sources. The main goal of the project is to provide players with quick and centralised access to data without the need to visit multiple web pages.
 
-El bot servirá como un asistente automatizado dentro de un servidor de Discord, permitiendo a los usuarios obtener información actualizada sobre el juego mediante comandos específicos. Esto facilitará el acceso a estadísticas, noticias, eventos, guías y otros datos relevantes sin salir de la plataforma de Discor
+The bot will serve as an automated assistant within a Discord server, allowing users to obtain up-to-date information about the game through specific commands. This will facilitate access to statistics, news, events, guides and other relevant data without leaving the Discord platform.
+
+Jinhsi Bot still on developtment so there might be some parts that are not implemented yet.
 
 # Preguntas a Responder
 
