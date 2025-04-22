@@ -3,11 +3,24 @@ import json
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from flask import Flask
+from threading import Thread
 
 TOKEN = os.getenv('DISCORD_TOKEN')
 if not TOKEN and os.path.exists('.env'):
     load_dotenv()
     TOKEN = os.getenv('DISCORD_TOKEN')
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot Wuthering Waves está en línea"
+
+def run_flask():
+    app.run(host='0.0.0.0', port=8080)
+
+Thread(target=run_flask).start()
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -36,7 +49,6 @@ async def on_ready():
 
 @bot.command(name='help')
 async def help_command(ctx):
-    """Muestra información sobre los comandos disponibles"""
     embed = discord.Embed(
         title="Comandos de Bot Wuthering Waves",
         description="Aquí tienes la lista de comandos disponibles:",
@@ -71,16 +83,19 @@ async def help_command(ctx):
     )
     
     embed.add_field(
-        name="Personajes disponibles",
-        value="Para ver los personajes disponibles usa `>personajes`",
+        name=">ping",
+        value="Comprueba si el bot está en línea y responde con 'Pong!'",
         inline=False
     )
     
     await ctx.send(embed=embed)
 
+@bot.command(name='ping')
+async def ping(ctx):
+    await ctx.send('Pong! Latencia: {0}ms'.format(round(bot.latency * 1000, 1)))
+
 @bot.command(name='personajes')
 async def list_characters(ctx):
-    """Muestra una lista de todos los personajes disponibles"""
     if not characters:
         await ctx.send("No hay personajes disponibles en este momento.")
         return
@@ -92,11 +107,8 @@ async def list_characters(ctx):
     )
     
     available_chars = [char_data.get('name', char_id) for char_id, char_data in characters.items()]
-    
-    # Ordenar alfabéticamente
     available_chars.sort()
     
-    # Crear una lista formateada
     formatted_list = ""
     for char in available_chars:
         formatted_list += f"• {char}\n"
@@ -119,7 +131,6 @@ async def list_characters(ctx):
 
 @bot.command(name='personaje')
 async def character_info(ctx, *, character_name=None):
-    """Muestra información completa sobre un personaje de Wuthering Waves en un solo mensaje"""
     if character_name is None:
         await ctx.send("Por favor, especifica el nombre de un personaje. Ejemplo: `>personaje Rover`")
         return
