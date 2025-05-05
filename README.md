@@ -8,6 +8,8 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 ## Table of contents
 
+- [Motivation](#motivation)
+- [Why Jinhsi?](#why-jihnsi?)
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
 
@@ -15,17 +17,17 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 ## Motivation
 
 
-## Why Jinhsi
+## Why Jinhsi?
 
-- It is simple, the name Jihsi comes from one in game character
+- It is simple, the name Jihsi comes from one in game character.
 
 ## How to install
 
-- First of all you will need a discord account
+- First of all you will need a discord account.
 
-- Then you have to go to a discord server where you have administrator permissions
+- Then you have to go to a discord server where you have administrator permissions.
 
-- To install the discord bot you will needd the invitation link:
+- To install the discord bot you will need the invitation link:
 
 ```
 https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=0&integration_type=0&scope=bot
