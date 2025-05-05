@@ -13,9 +13,9 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
 
-
 ## Motivation
 
+- I started this projectt because when playing the game I used to visit some diferent pages to have information about the game, so one I thought. What if I create my own information source unified? And that is why I started the project Jinhsi Bot, to have all the relevant information to use about the game in just one and user friendly source.
 
 ## Why Jinhsi?
 
@@ -27,7 +27,7 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 - Then you have to go to a discord server where you have administrator permissions.
 
-- To install the discord bot you will need the invitation link:
+- To add the discord bot to your servers you will need the invitation link:
 
 ```
 https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=0&integration_type=0&scope=bot
@@ -35,7 +35,6 @@ https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=0
 
 ## How to use
 
-- Para hacer uso del bot dentro de el servidor de discord que tenga el bot haremos uso de el prefijo ">" para despues introducir el nombre de el comando 
+- To use the bot we will use the prefix ">" and then introduce the command name.
 
 - EJ: ">help" que es un comando que muestra la informacion de los comandos disponibles en el bot
-
