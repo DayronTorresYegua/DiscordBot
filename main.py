@@ -155,7 +155,6 @@ async def character_info(ctx, *, character_name=None):
     if character_found:
         embed = discord.Embed(
             title=f"{character_found['name']} - Complete Guide",
-            description=character_found.get('description', 'No description available'),
             color=discord.Color.blue()
         )
         
