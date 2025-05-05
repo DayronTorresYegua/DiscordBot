@@ -9,7 +9,7 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 ## Table of contents
 
 - [Motivation](#motivation)
-- [Why Jinhsi?](#why-jinhsi?)
+- [Why Jinhsi?](#why-jinhsi)
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
 
