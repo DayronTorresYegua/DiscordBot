@@ -1,7 +1,6 @@
 {
   "aalto": {
     "name": "Aalto",
-    "description": "Es un agente de información de la Nueva Federación y consultor de las Costas Negras. ",
     "rarity": "4",
     "element": "Aero",
     "weapon": "Pistolas",
@@ -28,7 +27,6 @@
   },
   "baizhi": {
     "name": "Baizhi",
-    "description": "Investiga en Ecoacústica Remanente en la Academia Huaxu. El deseo incumplido de Baizhi se ha manifestado ahora como su fiel compañero. La Criatura Remanente You'tan es su fuente de poderes curativos y su principal objetivo de investigación.",
     "rarity": "4",
     "element": "Glacio",
     "weapon": "Rectificador",
@@ -55,7 +53,6 @@
   },
   "brant": {
     "name": "Brant",
-    "description": "Brant, es el capitán de la Compañía de los Locos. Como capitán de la Compañía de los Locos, Brant irradia un encanto despreocupado y tranquilo, libre de convencionalismos. Bajo su extravagante personalidad se esconde un corazón genuino, profundamente dedicado a su familia y compañeros. Dedica su vida a asegurar un refugio seguro para los miembros de la Compañía.",
     "rarity": "5",
     "element": "Fusion",
     "weapon": "Espada",
@@ -83,7 +80,6 @@
   },
   "calcharo": {
     "name": "Calcharo",
-    "description": "Es un antiguo exiliado de la Zona sin ley de la Nueva Federación y el líder de los Sabuesos Fantasma.",
     "rarity": "5",
     "element": "Electro",
     "weapon": "Mandoble",
@@ -111,7 +107,6 @@
   },
   "camellya": {
     "name": "Camellya",
-    "description": "Camellia es una Portadora de Flor de las Costas Negras y se encarga de las pruebas de germinación orientadas al combate que se realizan a los nuevos candidatos.",
     "rarity": "5",
     "element": "Havoc",
     "weapon": "Espada",
@@ -139,7 +134,6 @@
   },
   "carlotta": {
     "name": "Carlotta",
-    "description": "Carlotta es la segunda hija de la respetada familia Montelli de Rinascita, personificando una nobleza innata y una refinada apreciación por el arte.",
     "rarity": "5",
     "element": "Glacio",
     "weapon": "Pistolas",
@@ -167,7 +161,6 @@
   },
   "changli": {
     "name": "Changli",
-    "description": "Ella es la ex Secretaria General de la Secretaría Central en Mingting , la capital, y ahora se desempeña como Consejera del Magistrado de Jinzhou .",
     "rarity": "5",
     "element": "Fusion",
     "weapon": "Espada",
@@ -195,7 +188,6 @@
   },
   "chixia": {
     "name": "Chixia",
-    "description": "Ella es una joven patrullera que proyecta su jubilosa figura por las calles de la ciudad de Jinzhou.",
     "rarity": "5",
     "element": "Fusion",
     "weapon": "Pistolas",
@@ -222,7 +214,6 @@
   },
   "danjin": {
     "name": "Danjin",
-    "description": "Ella es miembro de los Midnight Rangers .",
     "rarity": "5",
     "element": "Havoc",
     "weapon": "Espada",
@@ -249,7 +240,6 @@
   },
   "encore": {
     "name": "Encore",
-    "description": "Encore pertenece a la Nueva Federación y es Consultora de las Costas Negras .",
     "rarity": "5",
     "element": "Fusion",
     "weapon": "Rectificador",
@@ -263,6 +253,292 @@
           "Coste4": "Daño Crítico / Probabilidad Crítica",
           "Coste3 (1)": "Bono de daño Fusión",
           "Coste3 (2)": "Bono de daño Fusión",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "jianxin": {
+    "name": "Jianxin",
+    "rarity": "5",
+    "element": "Aero",
+    "weapon": "Guantes",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0c/Jianxin_Icon.png/revision/latest?cb=20240523015240",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Nubes iluminadas": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Aero",
+          "Coste3 (2)": "Bono de daño Aero",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "jinhsi": {
+    "name": "Jinhsi",
+    "rarity": "5",
+    "element": "Spectro",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5c/Jinhsi_Icon.png/revision/latest?cb=20240523015214",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Luz celestial": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Spectro",
+          "Coste3 (2)": "Bono de daño Spectro",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "jueyuan": {
+    "name": "Jueyuan",
+    "rarity": "4",
+    "element": "Electro",
+    "weapon": "Pistolas",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7f/Jueyuan_Icon.png/revision/latest?cb=20240523015307",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Trueno vacío": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Electro",
+          "Coste3 (2)": "Bono de daño Electro",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "lingyang": {
+    "name": "Lingyang",
+    "rarity": "5",
+    "element": "Glacio",
+    "weapon": "Guantes",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2e/Lingyang_Icon.png/revision/latest?cb=20240523015253",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Escarcha eterna": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Glacio",
+          "Coste3 (2)": "Bono de daño Glacio",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "mortefi": {
+    "name": "Mortefi",
+    "rarity": "4",
+    "element": "Fusion",
+    "weapon": "Pistolas",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3c/Mortefi_Icon.png/revision/latest?cb=20240523015320",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Grieta fundida": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Fusión",
+          "Coste3 (2)": "Bono de daño Fusión",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "rover": {
+    "name": "Rover",
+    "rarity": "5",
+    "element": "Spectro",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1d/Rover_Icon.png/revision/latest?cb=20240523015156",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Luz celestial": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Spectro",
+          "Coste3 (2)": "Bono de daño Spectro",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "sanhua": {
+    "name": "Sanhua",
+    "rarity": "4",
+    "element": "Glacio",
+    "weapon": "Espada",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0c/Sanhua_Icon.png/revision/latest?cb=20240523015411",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Escarcha eterna": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Glacio",
+          "Coste3 (2)": "Bono de daño Glacio",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "taoqi": {
+    "name": "Taoqi",
+    "rarity": "4",
+    "element": "Havoc",
+    "weapon": "Mandoble",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0a/Taoqi_Icon.png/revision/latest?cb=20240523015443",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Caos desatado": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Havoc",
+          "Coste3 (2)": "Bono de daño Havoc",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "verina": {
+    "name": "Verina",
+    "rarity": "5",
+    "element": "Spectro",
+    "weapon": "Rectificador",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1c/Verina_Icon.png/revision/latest?cb=20240523015227",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Rejuvenecedor brillante": 5
+        },
+        "main_stats": {
+          "Coste4": "Bonificación de curación",
+          "Coste3 (1)": "Recarga de Energía",
+          "Coste3 (2)": "Recarga de Energía",
+          "Coste1 (1)": "HP%",
+          "Coste1 (2)": "HP%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "yinlin": {
+    "name": "Yinlin",
+    "rarity": "5",
+    "element": "Electro",
+    "weapon": "Rectificador",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8e/Yinlin_Icon.png/revision/latest?cb=20240523015124",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Trueno vacío": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Electro",
+          "Coste3 (2)": "Bono de daño Electro",
+          "Coste1 (1)": "ATQ%",
+          "Coste1 (2)": "ATQ%"
+        },
+        "substats": [
+          "Daño Crítico / Probabilidad Crítica",
+          "ATQ%",
+          "Recarga de Energía"
+        ]
+      }
+    ]
+  },
+  "yuanwu": {
+    "name": "Yuanwu",
+    "rarity": "4",
+    "element": "Electro",
+    "weapon": "Guantes",
+    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7a/Yuanwu_Icon.png/revision/latest?cb=20240523015456",
+    "recommended_builds": [
+      {
+        "echo_sets": {
+          "Trueno vacío": 5
+        },
+        "main_stats": {
+          "Coste4": "Daño Crítico / Probabilidad Crítica",
+          "Coste3 (1)": "Bono de daño Electro",
+          "Coste3 (2)": "Bono de daño Electro",
           "Coste1 (1)": "ATQ%",
           "Coste1 (2)": "ATQ%"
         },
