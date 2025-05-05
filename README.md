@@ -27,11 +27,8 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 - Then you have to go to a discord server where you have administrator permissions.
 
-- To add the discord bot to your servers you will need the invitation link:
-
-```
-https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=8&integration_type=0&scope=bot
-```
+- To add the discord bot to your servers you can click [here](https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=8&integration_type=0&scope=bot
+)
 
 ## How to use
 
