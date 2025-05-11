@@ -3,24 +3,23 @@
     "name": "Aalto",
     "rarity": "4",
     "element": "Aero",
-    "weapon": "Pistolas",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/51/Aalto_Icon.png/revision/latest?cb=20240523015427",
+    "weapon": "Pistols",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Nubes iluminadas": 5
+          "Illuminated Clouds": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Aero",
-          "Coste3 (2)": "Bono de daño Aero",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Aero Damage Bonus",
+          "Cost3 (2)": "Aero Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -29,24 +28,23 @@
     "name": "Baizhi",
     "rarity": "4",
     "element": "Glacio",
-    "weapon": "Rectificador",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/66/Baizhi_Icon.png/revision/latest?cb=20240523015334",
+    "weapon": "Rectifier",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Rejuvenecedor brillante": 5
+          "Brilliant Rejuvenation": 5
         },
         "main_stats": {
-          "Coste4": "Bonificación de curación",
-          "Coste3 (1)": "Recarga de Energía",
-          "Coste3 (2)": "Recarga de Energía",
-          "Coste1 (1)": "HP%",
-          "Coste1 (2)": "HP%"
+          "Cost4": "Healing Bonus",
+          "Cost3 (1)": "Energy Recharge",
+          "Cost3 (2)": "Energy Recharge",
+          "Cost1 (1)": "HP%",
+          "Cost1 (2)": "HP%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -55,25 +53,24 @@
     "name": "Brant",
     "rarity": "5",
     "element": "Fusion",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/6d/Brant_Icon.png/revision/latest?cb=20250213184622",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Rejuvenecedor brillante": 5
+          "Brilliant Rejuvenation": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Recarga de Energía",
-          "Coste3 (2)": "Recarga de Energía / Bono de daño fusión",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Energy Recharge",
+          "Cost3 (2)": "Energy Recharge / Fusion Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Recarga de Energía",
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Bono de ataque básico"
+          "Energy Recharge",
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Basic Attack Bonus"
         ]
       }
     ]
@@ -82,25 +79,24 @@
     "name": "Calcharo",
     "rarity": "5",
     "element": "Electro",
-    "weapon": "Mandoble",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/12/Calcharo_Icon.png/revision/latest?cb=20240523015359",
+    "weapon": "Claymore",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Trueno vacío": 5
+          "Void Thunder": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Electro",
-          "Coste3 (2)": "Bono de daño Electro",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Electro Damage Bonus",
+          "Cost3 (2)": "Electro Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Bono de liberación de resonancia",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Resonance Liberation Bonus",
+          "Energy Recharge"
         ]
       }
     ]
@@ -109,25 +105,24 @@
     "name": "Camellya",
     "rarity": "5",
     "element": "Havoc",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/b/bc/Camellya_Icon.png/revision/latest?cb=20241116001919",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Eclipse de sol en descenso": 5
+          "Descending Solar Eclipse": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Havoc",
-          "Coste3 (2)": "Bono de daño Havoc",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Havoc Damage Bonus",
+          "Cost3 (2)": "Havoc Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía",
-          "Bono de ataque básico"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge",
+          "Basic Attack Bonus"
         ]
       }
     ]
@@ -136,25 +131,24 @@
     "name": "Carlotta",
     "rarity": "5",
     "element": "Glacio",
-    "weapon": "Pistolas",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/06/Carlotta_Icon.png/revision/latest?cb=20250102025428",
+    "weapon": "Pistols",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Escarcha eterna": 5
+          "Eternal Frost": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Glacio",
-          "Coste3 (2)": "Bono de daño Glacio",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Glacio Damage Bonus",
+          "Cost3 (2)": "Glacio Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía",
-          "Bono de habilidad de resonancia"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge",
+          "Resonance Skill Bonus"
         ]
       }
     ]
@@ -163,25 +157,24 @@
     "name": "Changli",
     "rarity": "5",
     "element": "Fusion",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/19/Changli_Icon.png/revision/latest?cb=20240629210403",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Grieta fundida": 5
+          "Molten Rift": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Fusión",
-          "Coste3 (2)": "Bono de daño Fusión",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Fusion Damage Bonus",
+          "Cost3 (2)": "Fusion Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía",
-          "Bono de habilidad de resonancia"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge",
+          "Resonance Skill Bonus"
         ]
       }
     ]
@@ -190,24 +183,23 @@
     "name": "Chixia",
     "rarity": "5",
     "element": "Fusion",
-    "weapon": "Pistolas",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/b/b9/Chixia_Icon.png/revision/latest?cb=20240523010958",
+    "weapon": "Pistols",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Grieta fundida": 5
+          "Molten Rift": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Fusión",
-          "Coste3 (2)": "Bono de daño Fusión",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Fusion Damage Bonus",
+          "Cost3 (2)": "Fusion Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -216,24 +208,23 @@
     "name": "Danjin",
     "rarity": "5",
     "element": "Havoc",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5a/Danjin_Icon.png/revision/latest?cb=20240523015142",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Caos desatado": 5
+          "Unleashed Chaos": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Havoc",
-          "Coste3 (2)": "Bono de daño Havoc",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Havoc Damage Bonus",
+          "Cost3 (2)": "Havoc Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -242,24 +233,23 @@
     "name": "Encore",
     "rarity": "5",
     "element": "Fusion",
-    "weapon": "Rectificador",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/6/64/Encore_Icon.png/revision/latest?cb=20240523015109",
+    "weapon": "Rectifier",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Grieta fundida": 5
+          "Molten Rift": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Fusión",
-          "Coste3 (2)": "Bono de daño Fusión",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Fusion Damage Bonus",
+          "Cost3 (2)": "Fusion Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -268,24 +258,23 @@
     "name": "Jianxin",
     "rarity": "5",
     "element": "Aero",
-    "weapon": "Guantes",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0c/Jianxin_Icon.png/revision/latest?cb=20240523015240",
+    "weapon": "Gauntlets",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Nubes iluminadas": 5
+          "Illuminated Clouds": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Aero",
-          "Coste3 (2)": "Bono de daño Aero",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Aero Damage Bonus",
+          "Cost3 (2)": "Aero Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -294,24 +283,23 @@
     "name": "Jinhsi",
     "rarity": "5",
     "element": "Spectro",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/5/5c/Jinhsi_Icon.png/revision/latest?cb=20240523015214",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Luz celestial": 5
+          "Celestial Light": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Spectro",
-          "Coste3 (2)": "Bono de daño Spectro",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Spectro Damage Bonus",
+          "Cost3 (2)": "Spectro Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -320,24 +308,23 @@
     "name": "Jueyuan",
     "rarity": "4",
     "element": "Electro",
-    "weapon": "Pistolas",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7f/Jueyuan_Icon.png/revision/latest?cb=20240523015307",
+    "weapon": "Pistols",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Trueno vacío": 5
+          "Void Thunder": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Electro",
-          "Coste3 (2)": "Bono de daño Electro",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Electro Damage Bonus",
+          "Cost3 (2)": "Electro Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -346,24 +333,23 @@
     "name": "Lingyang",
     "rarity": "5",
     "element": "Glacio",
-    "weapon": "Guantes",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/2/2e/Lingyang_Icon.png/revision/latest?cb=20240523015253",
+    "weapon": "Gauntlets",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Escarcha eterna": 5
+          "Eternal Frost": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Glacio",
-          "Coste3 (2)": "Bono de daño Glacio",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Glacio Damage Bonus",
+          "Cost3 (2)": "Glacio Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -372,24 +358,23 @@
     "name": "Mortefi",
     "rarity": "4",
     "element": "Fusion",
-    "weapon": "Pistolas",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/3/3c/Mortefi_Icon.png/revision/latest?cb=20240523015320",
+    "weapon": "Pistols",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Grieta fundida": 5
+          "Molten Rift": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Fusión",
-          "Coste3 (2)": "Bono de daño Fusión",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Fusion Damage Bonus",
+          "Cost3 (2)": "Fusion Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -398,24 +383,23 @@
     "name": "Rover",
     "rarity": "5",
     "element": "Spectro",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1d/Rover_Icon.png/revision/latest?cb=20240523015156",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Luz celestial": 5
+          "Celestial Light": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Spectro",
-          "Coste3 (2)": "Bono de daño Spectro",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Spectro Damage Bonus",
+          "Cost3 (2)": "Spectro Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -424,24 +408,23 @@
     "name": "Sanhua",
     "rarity": "4",
     "element": "Glacio",
-    "weapon": "Espada",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0c/Sanhua_Icon.png/revision/latest?cb=20240523015411",
+    "weapon": "Sword",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Escarcha eterna": 5
+          "Eternal Frost": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Glacio",
-          "Coste3 (2)": "Bono de daño Glacio",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Glacio Damage Bonus",
+          "Cost3 (2)": "Glacio Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -450,24 +433,23 @@
     "name": "Taoqi",
     "rarity": "4",
     "element": "Havoc",
-    "weapon": "Mandoble",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/0/0a/Taoqi_Icon.png/revision/latest?cb=20240523015443",
+    "weapon": "Claymore",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Caos desatado": 5
+          "Unleashed Chaos": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Havoc",
-          "Coste3 (2)": "Bono de daño Havoc",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Havoc Damage Bonus",
+          "Cost3 (2)": "Havoc Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -476,24 +458,23 @@
     "name": "Verina",
     "rarity": "5",
     "element": "Spectro",
-    "weapon": "Rectificador",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/1/1c/Verina_Icon.png/revision/latest?cb=20240523015227",
+    "weapon": "Rectifier",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Rejuvenecedor brillante": 5
+          "Brilliant Rejuvenation": 5
         },
         "main_stats": {
-          "Coste4": "Bonificación de curación",
-          "Coste3 (1)": "Recarga de Energía",
-          "Coste3 (2)": "Recarga de Energía",
-          "Coste1 (1)": "HP%",
-          "Coste1 (2)": "HP%"
+          "Cost4": "Healing Bonus",
+          "Cost3 (1)": "Energy Recharge",
+          "Cost3 (2)": "Energy Recharge",
+          "Cost1 (1)": "HP%",
+          "Cost1 (2)": "HP%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -502,24 +483,23 @@
     "name": "Yinlin",
     "rarity": "5",
     "element": "Electro",
-    "weapon": "Rectificador",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/8/8e/Yinlin_Icon.png/revision/latest?cb=20240523015124",
+    "weapon": "Rectifier",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Trueno vacío": 5
+          "Void Thunder": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Electro",
-          "Coste3 (2)": "Bono de daño Electro",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Electro Damage Bonus",
+          "Cost3 (2)": "Electro Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
@@ -528,24 +508,23 @@
     "name": "Yuanwu",
     "rarity": "4",
     "element": "Electro",
-    "weapon": "Guantes",
-    "image_url": "https://static.wikia.nocookie.net/wutheringwaves/images/7/7a/Yuanwu_Icon.png/revision/latest?cb=20240523015456",
+    "weapon": "Gauntlets",
     "recommended_builds": [
       {
         "echo_sets": {
-          "Trueno vacío": 5
+          "Void Thunder": 5
         },
         "main_stats": {
-          "Coste4": "Daño Crítico / Probabilidad Crítica",
-          "Coste3 (1)": "Bono de daño Electro",
-          "Coste3 (2)": "Bono de daño Electro",
-          "Coste1 (1)": "ATQ%",
-          "Coste1 (2)": "ATQ%"
+          "Cost4": "Critical Damage / Critical Rate",
+          "Cost3 (1)": "Electro Damage Bonus",
+          "Cost3 (2)": "Electro Damage Bonus",
+          "Cost1 (1)": "ATK%",
+          "Cost1 (2)": "ATK%"
         },
         "substats": [
-          "Daño Crítico / Probabilidad Crítica",
-          "ATQ%",
-          "Recarga de Energía"
+          "Critical Damage / Critical Rate",
+          "ATK%",
+          "Energy Recharge"
         ]
       }
     ]
