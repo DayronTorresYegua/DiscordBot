@@ -16,6 +16,10 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 - I started this project because when playing the game I used to visit some diferent pages to have information about the game, so one day I thought. What if I create my own unified information source? And that is why I started this project, to have all the relevant information to use about the game in just one and user friendly source.
 
+## Contributing
+
+- Want to contribute? You can do it checking the [contributing](https://github.com/DayronTorresYegua/DiscordBot/blob/main/CONTRIBUTING.md) file.
+
 ## How to install
 
 - First of all you will need a discord account.
@@ -27,6 +31,6 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 ## How to use
 
-- Ypu can use the prefix '>' and the command to use any command, u can see all the commands by using '>help'.
+- You can use the prefix '>' and the command to use any command, u can see all the commands by using '>help'.
 
 - You can also visit [this page](wiki.md) to have more information about the commands.
