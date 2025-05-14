@@ -10,6 +10,7 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 - [Motivation](#motivation)
 - [Contributing](#contributing)
+- [Devlog](#devlog)
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
 
@@ -21,14 +22,24 @@ Jinhsi Bot still on developtment so there might be some parts that are not imple
 
 - Want to contribute? You can do it checking the [contributing](https://github.com/DayronTorresYegua/DiscordBot/blob/main/CONTRIBUTING.md) file.
 
+## Devlog
+
+Want to know how Jinhsi Bot was built?  
+I documented the entire first month of development in a detailed LinkedIn post, covering everything from planning and command setup to deployment and documentation.
+
+Check out the full devlog here:  
+[Devlog on LinkedIn](https://www.linkedin.com/posts/dayron-torres-yegua-3ab323321_devlog-discordbot-python-activity-7328495295351115776-Rv-f?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFFiLHMBAdLrdynYRhbnRGUZaHhtpblnJBE)
+
+It includes a week-by-week breakdown of the project, key decisions, tools used, and lessons learned.
+
+
 ## How to install
 
 - First of all you will need a discord account.
 
 - Then you have to go to a discord server where you have administrator permissions.
 
-- To add the discord bot to your servers you can click [here](https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=8&integration_type=0&scope=bot
-).
+- To add the discord bot to your servers you can click [here](https://discord.com/oauth2/authorize?client_id=1332374346294886470&permissions=8&integration_type=0&scope=bot).
 
 ## How to use
 
